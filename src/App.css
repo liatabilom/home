@@ -3,7 +3,8 @@
 .mainContainer {
   background: #f5f4ef;
   width: 1440px;
-  height: 830px;
+  height: 850px;
+  display: flex;
   padding: 0px;
   margin: 0px;
 }
@@ -24,6 +25,7 @@ h2 {
   position: relative;
   left: 40px;
   top: 80px;
+  display: flex;
 }
 
 h3 {
