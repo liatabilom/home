@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"rel="stylesheet");
+
+.plusIcon3 {
+  position: relative;
+  left: 160px;
+  top: -200px;
+}
+
+.container {
+  position: relative;
+  bottom: 20px;
+  max-width: 200px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.content {
+  position: fixed; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  left: -30px;
+  background: transparent(0, 0, 0); /* Fallback color */
+  background: transparent(0, 0, 0, 0.5);
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  color: #000000; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
