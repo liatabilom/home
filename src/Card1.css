@@ -1,6 +1,8 @@
 .carousel {
   position: relative;
   top: 40px;
+  height: 100%;
+  width: 100%;
 }
 .changeBackground:hover {
   background: black;
@@ -33,19 +35,14 @@
   margin: 5px;
 }
 
-.legend {
-  background: transparent;
-}
-
 .carousel .slide .legend {
   position: relative;
   background: transparent;
-  top: 60px;
+  top: 46px;
   bottom: 0px;
-  left: 20px;
+  left: 25px;
   margin: 0px;
   padding: 0px;
-  color: white;
   font-size: 32px;
   text-align: left;
   color: white;
