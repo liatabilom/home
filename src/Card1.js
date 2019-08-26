@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import QuickTitle from "./QuickTitles";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Loader from "react-loader-spinner";
@@ -25,17 +24,47 @@ class Card1 extends Component {
             showThumbs={false}
             showStatus={false}
             transition={5000}
+            swipeScrollTolerance={1}
+            infiniteLoop={true}
           >
-            <div id="wool">
+            <div>
+              <p className="legend">
+                WOOL
+                <br />
+                WORT
+                <br />
+                HS
+              </p>
               <img src={Woolworths} alt="Woolworths" />
             </div>
-            <div id="zara">
+            <div>
+              <p className="legend">
+                ZARA
+                <br />
+                WOM
+                <br />
+                AN
+              </p>
               <img src={Zara} alt="Zara" />
             </div>
-            <div id="banana">
+            <div>
+              <p className="legend">
+                BANA NA
+                <br />
+                REPUB
+                <br />
+                LIC
+              </p>
               <img src={BananaRepublic} alt="Banana Republic" />
             </div>
-            <div id="brooks">
+            <div>
+              <p className="legend">
+                BROO
+                <br />
+                KSBR
+                <br />
+                OTHE RS
+              </p>
               <img src={BrooksBrothers} alt="Brooks Brothers" />
             </div>
           </Carousel>
@@ -55,9 +84,6 @@ class Card1 extends Component {
     return (
       <div>
         <h1>
-          <span className="title">
-            <QuickTitle id={this.id} />
-          </span>
           <div className="carousel">{this.carousel()}</div>
         </h1>
         <h5>

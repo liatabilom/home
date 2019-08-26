@@ -33,13 +33,21 @@
   margin: 5px;
 }
 
-.title {
+.legend {
+  background: transparent;
+}
+
+.carousel .slide .legend {
   position: relative;
+  background: transparent;
   top: 60px;
-  display: block;
+  bottom: 0px;
+  left: 20px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
   font-size: 32px;
-  text-align: right;
-  writing-mode: lr-tb;
+  text-align: left;
   color: white;
   font-weight: 800;
 }
