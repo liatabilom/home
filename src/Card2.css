@@ -1,12 +1,12 @@
 .plusIcon2 {
-  position: fixed;
-  top: 300px;
-  left: 610px;
+  position: absolute;
+  top: 750px;
+  left: 10px;
 }
 
 .carouselAuto {
   position: relative;
-  left: 25px;
+  left: 45px;
   height: 3500px;
-  width: 250px;
+  width: 240px;
 }
