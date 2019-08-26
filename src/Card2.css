@@ -3,3 +3,10 @@
   top: 300px;
   left: 610px;
 }
+
+.carouselAuto {
+  position: relative;
+  left: 25px;
+  height: 3500px;
+  width: 250px;
+}

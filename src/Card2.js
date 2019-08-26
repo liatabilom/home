@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Test from "./images/Test.png";
+import CarouselAuto from "./images/CarouselAuto.png";
 import Draggable from "react-draggable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +28,7 @@ class Card2 extends Component {
             cancel={".body"}
             disabled={true}
           >
-            <img src={Test} alt="" className="card2" />
+            <img src={CarouselAuto} alt="" className="carouselAuto" />
           </Draggable>
           <FontAwesomeIcon
             icon={faPlusCircle}
