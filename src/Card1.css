@@ -1,6 +1,7 @@
 .carousel {
   position: relative;
-  top: 40px;
+  top: 20px;
+  margin: 15px 0px 0px;
   height: 70%;
   width: 100%;
 }
@@ -23,36 +24,27 @@
   text-orientation: upright;
   position: relative;
   left: 20px;
-  top: 100px;
+  top: 50px;
 }
 
 .plusIcon1 {
   position: relative;
-  left: 1px;
+  left: 3px;
   top: 0px;
   width: 15px;
   height: 15px;
   margin: 5px;
 }
 
-.carousel .slide {
-  background: #f5f4ef;
-}
-
-.carousel .slide:hover {
-  background: black;
-  transition-duration: 0ms;
-  transition-delay: 0ms;
-}
-
 .carousel .slide .legend {
   background: transparent;
+  opacity: none;
   position: absolute;
-  top: 20px;
-  left: 25px;
+  top: 0px;
+  left: 50px;
   margin: 0px;
   padding: 0px;
-  font-size: 38px;
+  font-size: 48px;
   text-align: left;
   color: white;
   font-weight: 800;

@@ -2,11 +2,10 @@
   position: absolute;
   top: 750px;
   left: 10px;
+  color: black;
 }
 
 .carouselAuto {
   position: relative;
-  left: 45px;
-  height: 3500px;
-  width: 240px;
+  left: 60px;
 }

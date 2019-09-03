@@ -11,14 +11,28 @@ class Card2 extends Component {
       <div
         className="parent"
         style={{
-          height: "200px",
+          height: "500px",
           width: "275px",
           position: "relative",
           overflow: "auto",
           padding: "0"
         }}
       >
-        <div style={{ height: "1000px", padding: "0" }}>
+        <div className="clearfix">
+          <div className="float-left">
+            <a href="https://www.shecodes.io">
+              <FontAwesomeIcon
+                icon={faPlusCircle}
+                size="1x"
+                className="plusIcon2"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          className="float-left"
+          style={{ height: "1000px", width: "50px", padding: "0" }}
+        >
           <Draggable
             axis="y"
             bounds={(0, 10, 0, 10)}
@@ -28,13 +42,13 @@ class Card2 extends Component {
             cancel={".body"}
             disabled={true}
           >
-            <img src={CarouselAuto} alt="Carousel" />
+            <img
+              src={CarouselAuto}
+              alt="Carousel"
+              className="carouselAuto"
+              style={{ height: 2000, width: 200 }}
+            />
           </Draggable>
-          <FontAwesomeIcon
-            icon={faPlusCircle}
-            size="1x"
-            className="plusIcon2"
-          />
         </div>
       </div>
     );

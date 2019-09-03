@@ -24,7 +24,13 @@ class Card3 extends Component {
             </div>
           </div>
         </Draggable>
-        <FontAwesomeIcon icon={faPlusCircle} size="1x" className="plusIcon3" />
+        <a href="https://www.shecodes.io">
+          <FontAwesomeIcon
+            icon={faPlusCircle}
+            size="1x"
+            className="plusIcon3"
+          />
+        </a>
       </div>
     );
   }

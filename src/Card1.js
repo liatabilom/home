@@ -15,10 +15,6 @@ class Card1 extends Component {
     loaded: true
   };
 
-  handleRedirect = () => {
-    let url = "https://shecodes.io";
-  };
-
   carousel = () => {
     if (this.state.loaded === true) {
       return (
@@ -110,12 +106,13 @@ class Card1 extends Component {
           <div className="selector">
             <span>
               WOMEN
-              <FontAwesomeIcon
-                icon={faPlusCircle}
-                size="2x"
-                className="plusIcon1"
-                onClick={() => `https://www.google.com/search?q=weather`}
-              />
+              <a href="https://www.shecodes.io">
+                <FontAwesomeIcon
+                  icon={faPlusCircle}
+                  size="2x"
+                  className="plusIcon1"
+                />
+              </a>
               MULHER
             </span>
           </div>
