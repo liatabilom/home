@@ -35,6 +35,17 @@
   margin: 5px;
 }
 
+.carousel .slide {
+  background: #f5f4ef;
+}
+
+.carousel .slide:hover {
+  background: black;
+}
+
+.control-arrow:hover {
+  color: black;
+}
 .carousel .slide .legend {
   position: relative;
   background: transparent;

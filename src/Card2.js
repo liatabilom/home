@@ -28,7 +28,7 @@ class Card2 extends Component {
             cancel={".body"}
             disabled={true}
           >
-            <img src={CarouselAuto} alt="" className="carouselAuto" />
+            <img src={CarouselAuto} alt="Carousel" />
           </Draggable>
           <FontAwesomeIcon
             icon={faPlusCircle}
