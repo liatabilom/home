@@ -11,7 +11,7 @@ class Card2 extends Component {
       <div
         className="parent"
         style={{
-          height: "500px",
+          height: "200px",
           width: "275px",
           position: "relative",
           overflow: "auto",

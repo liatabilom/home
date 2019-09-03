@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
   top: 40px;
-  height: 100%;
+  height: 70%;
   width: 100%;
 }
 .changeBackground:hover {
@@ -41,21 +41,20 @@
 
 .carousel .slide:hover {
   background: black;
+  transition-duration: 0ms;
+  transition-delay: 0ms;
 }
 
-.control-arrow:hover {
-  color: black;
-}
 .carousel .slide .legend {
-  position: relative;
   background: transparent;
-  top: 48px;
-  bottom: 0px;
+  position: absolute;
+  top: 20px;
   left: 25px;
   margin: 0px;
   padding: 0px;
-  font-size: 32px;
+  font-size: 38px;
   text-align: left;
   color: white;
   font-weight: 800;
+  overflow: inherit;
 }

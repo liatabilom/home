@@ -15,6 +15,10 @@ class Card1 extends Component {
     loaded: true
   };
 
+  handleRedirect = () => {
+    let url = "https://shecodes.io";
+  };
+
   carousel = () => {
     if (this.state.loaded === true) {
       return (
@@ -35,7 +39,11 @@ class Card1 extends Component {
                 <br />
                 HS
               </p>
-              <img src={Woolworths} alt="Woolworths" />
+              <img
+                src={Woolworths}
+                alt="Woolworths"
+                style={{ height: 225, width: 300 }}
+              />
             </div>
             <div>
               <p className="legend">
@@ -45,17 +53,23 @@ class Card1 extends Component {
                 <br />
                 AN
               </p>
-              <img src={Zara} alt="Zara" />
+              <img src={Zara} alt="Zara" style={{ height: 225, width: 350 }} />
             </div>
             <div>
               <p className="legend">
-                BANA NA
+                BANA
+                <br />
+                NA
                 <br />
                 REPUB
                 <br />
                 LIC
               </p>
-              <img src={BananaRepublic} alt="Banana Republic" />
+              <img
+                src={BananaRepublic}
+                alt="Banana Republic"
+                style={{ height: 225, width: 350 }}
+              />
             </div>
             <div>
               <p className="legend">
@@ -63,9 +77,15 @@ class Card1 extends Component {
                 <br />
                 KSBR
                 <br />
-                OTHE RS
+                OTHE
+                <br />
+                RS
               </p>
-              <img src={BrooksBrothers} alt="Brooks Brothers" />
+              <img
+                src={BrooksBrothers}
+                alt="Brooks Brothers"
+                style={{ height: 225, width: 350 }}
+              />
             </div>
           </Carousel>
         </div>
@@ -92,8 +112,9 @@ class Card1 extends Component {
               WOMEN
               <FontAwesomeIcon
                 icon={faPlusCircle}
-                size="1x"
+                size="2x"
                 className="plusIcon1"
+                onClick={() => `https://www.google.com/search?q=weather`}
               />
               MULHER
             </span>
