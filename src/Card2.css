@@ -1,11 +1,11 @@
-.plusIcon2 {
-  position: absolute;
-  top: 750px;
-  left: 10px;
-  color: black;
-}
-
 .carouselAuto {
   position: relative;
   left: 60px;
+}
+
+.plusIcon2 {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+  color: black;
 }
