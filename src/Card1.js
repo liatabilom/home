@@ -38,7 +38,7 @@ class Card1 extends Component {
               <img
                 src={Woolworths}
                 alt="Woolworths"
-                style={{ height: 225, width: 300 }}
+                style={{ height: 225, width: 350 }}
               />
             </div>
             <div>
@@ -49,7 +49,11 @@ class Card1 extends Component {
                 <br />
                 AN
               </p>
-              <img src={Zara} alt="Zara" style={{ height: 225, width: 350 }} />
+              <img
+                src={Zara}
+                alt="Zara Woman"
+                style={{ height: 225, width: 350 }}
+              />
             </div>
             <div>
               <p className="legend">

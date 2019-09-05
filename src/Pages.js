@@ -18,7 +18,7 @@ class Pages extends Component {
                 Page 2
               </a>
             </li>
-            <li className="btn btn-outline-dark d-table-cell rounded-1 ">
+            <li className="btn btn-outline-dark d-table-cell rounded-1">
               <a
                 className="page-button"
                 href="https://fervent-wing-877df5.netlify.com/"
