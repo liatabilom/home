@@ -1,11 +1,31 @@
 .carouselAuto {
   position: relative;
   left: 60px;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  transition: transform 0.2s;
+}
+
+.carouselAuto:hover {
+  animation-play-state: paused;
+  transform: scale(1.5);
+}
+
+@keyframes move {
+  0% {
+    margin-top: -1550px;
+  }
+  100% {
+    margin-top: 110px;
+  }
 }
 
 .plusIcon2 {
   position: absolute;
-  top: 160px;
-  left: 40px;
+  top: 180px;
+  left: 30px;
   color: black;
 }
