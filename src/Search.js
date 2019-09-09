@@ -13,7 +13,9 @@ class Search extends Component {
               <input className="emailInput" type="text" placeholder="Email" />
             </div>
             <div className="infoIcon float-left ml-3">
-              <FontAwesomeIcon icon={faInfoCircle} size="1x" />
+              <a href="https://lucid-shaw-024403.netlify.com/">
+                <FontAwesomeIcon icon={faInfoCircle} size="1x" />
+              </a>
             </div>
             <div className="avocadoIcon float-left ml-3">
               <span role="img" aria-label="Avocado">
