@@ -38,7 +38,7 @@ class Card1 extends Component {
               <img
                 src={Woolworths}
                 alt="Woolworths"
-                style={{ height: 225, width: 350 }}
+                style={{ height: 225, width: 500 }}
               />
             </div>
             <div>
@@ -52,7 +52,7 @@ class Card1 extends Component {
               <img
                 src={Zara}
                 alt="Zara Woman"
-                style={{ height: 225, width: 350 }}
+                style={{ height: 225, width: 500 }}
               />
             </div>
             <div>
@@ -68,7 +68,7 @@ class Card1 extends Component {
               <img
                 src={BananaRepublic}
                 alt="Banana Republic"
-                style={{ height: 225, width: 350 }}
+                style={{ height: 225, width: 500 }}
               />
             </div>
             <div>
@@ -84,7 +84,7 @@ class Card1 extends Component {
               <img
                 src={BrooksBrothers}
                 alt="Brooks Brothers"
-                style={{ height: 225, width: 350 }}
+                style={{ height: 225, width: 500 }}
               />
             </div>
           </Carousel>

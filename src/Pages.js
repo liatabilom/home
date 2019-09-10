@@ -7,10 +7,10 @@ class Pages extends Component {
       <div>
         <nav aria-label="footer">
           <ul className="bottom-pages">
-            <li className="btn btn-outline-dark rounded-1">
+            <li className="btn btn-outline-dark ">
               <a className="page-button">Page 1</a>
             </li>
-            <li className="btn btn-outline-dark rounded-1 ">
+            <li className="btn btn-outline-dark  ">
               <a
                 className="page-button"
                 href="https://compassionate-liskov-30453f.netlify.com/"
@@ -18,7 +18,7 @@ class Pages extends Component {
                 Page 2
               </a>
             </li>
-            <li className="btn btn-outline-dark d-table-cell rounded-1">
+            <li className="btn btn-outline-dark d-table-cell">
               <a
                 className="page-button"
                 href="https://fervent-wing-877df5.netlify.com/"
