@@ -8,8 +8,23 @@ import "./Card2.css";
 
 class Card2 extends Component {
   state={
-    loaded: true
+    loaded: true,
   }
+
+  contentHover = () => {
+    this.setState ({
+      topSub: "SPEC",
+      bottomSub: "PACKS"
+    }) 
+  }
+
+  removeHover = () => {
+    this.setState({
+      topSub:"",
+      bottomSub: ""
+    })
+  }
+
   draggable = () => {
     if (this.state.loaded === true) {
       return (  
@@ -54,10 +69,10 @@ class Card2 extends Component {
     <div>
       {this.draggable()} 
        <h5>
-          <div className="contentLeft overlayTop">
-            <p>SPEC</p>
+          <div>
+            <p id="contentLeft">{this.state.topSub}</p>
           </div>
-          <div className="selector2">
+          <div className="selector2 contentHover">
             <span>
               HOMEM
               <a href="https://www.shecodes.io">
@@ -65,13 +80,16 @@ class Card2 extends Component {
                   icon={faPlusCircle}
                   size="2x"
                   className="plusIcon2"
+                  onMouseOver={this.contentHover}
+                  onMouseEnter={this.contentHover}
+                  onMouseLeave={this.removeHover}
                 />
               </a>
               MAN
             </span>
           </div>
-          <div className="contentRight overlayBottom">
-            <p>PACKS</p>
+          <div>
+            <p id="contentRight">{this.state.bottomSub}</p>
           </div>
         </h5>
     </div>

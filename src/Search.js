@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./Search.css";
 
 class Search extends Component {
@@ -10,7 +11,7 @@ class Search extends Component {
         <form>
           <div className="clearfix">
             <div className="float-left">
-              <input className="emailInput" type="text" placeholder="Email" />
+              <input className="emailInput" type="text" placeholder="Email "/>  
             </div>
             <div className="infoIcon float-left ml-3">
               <a

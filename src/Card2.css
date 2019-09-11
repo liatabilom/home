@@ -41,8 +41,15 @@ padding: 0px;
 
 p {
   margin: 0px;
+
 }
-.contentLeft {
+
+.contentHover:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#contentLeft {
 font-family: 'Crimson Text', serif;
 position: absolute;
 top: 0px;
@@ -53,7 +60,7 @@ margin: 0px;
 writing-mode: vertical-rl;
 }
 
-.contentRight {
+#contentRight {
 font-family: 'Crimson Text', serif;
 position: absolute;
 bottom: 0px;
@@ -64,6 +71,3 @@ margin: 0px;
 writing-mode: vertical-rl;
 }
 
-.contentRight:hover {
-  color: black;
-}
