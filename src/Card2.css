@@ -64,7 +64,6 @@ margin: 0px;
 writing-mode: vertical-rl;
 }
 
-.content:hover {
-  bottom: 0;
-  height: 100%;
+.contentRight:hover {
+  color: black;
 }

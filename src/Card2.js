@@ -52,7 +52,6 @@ class Card2 extends Component {
   render() {
     return (
     <div>
-      
       {this.draggable()} 
        <h5>
           <div className="contentLeft overlayTop">
