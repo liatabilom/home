@@ -1,17 +1,15 @@
 .carouselAuto {
   position: relative;
-  left: 60px;
+  left: 50px;
   animation-name: move;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: linear;
-  transition: transform 0.2s;
 }
 
 .carouselAuto:hover {
   animation-play-state: paused;
-  transform: scale(1.5);
 }
 
 @keyframes move {
@@ -24,8 +22,49 @@
 }
 
 .plusIcon2 {
-  position: absolute;
-  top: 180px;
-  left: 30px;
-  color: black;
+  position: relative;
+  left: 0px;
+  top: 3px;
+  width: 10px;
+  height: 15px;
+  margin: 1px;
+}
+
+.selector2 {
+position: absolute;
+left: 0px;
+top: 190px;
+font-family: "Nunito Sans", sans-serif;
+font-size: 10px;
+padding: 0px;
+}
+
+p {
+  margin: 0px;
+}
+.contentLeft {
+font-family: 'Crimson Text', serif;
+position: absolute;
+top: 0px;
+left: -6px;
+font-size: 70px;
+padding: 0px;
+margin: 0px;
+writing-mode: vertical-rl;
+}
+
+.contentRight {
+font-family: 'Crimson Text', serif;
+position: absolute;
+bottom: 0px;
+right: -8px;
+font-size: 70px;
+padding: 0px;
+margin: 0px;
+writing-mode: vertical-rl;
+}
+
+.content:hover {
+  bottom: 0;
+  height: 100%;
 }
