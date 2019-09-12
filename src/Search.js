@@ -23,8 +23,10 @@ class Search extends Component {
             </div>
             <div className="avocadoIcon float-left ml-3">
               <span role="img" aria-label="Avocado">
-                {" "}
+                <a href="https://nadiacoralves.tumblr.com/"
+                style={{ textDecoration: "none"}}>
                 🥑
+                </a>
               </span>
             </div>
           </div>
