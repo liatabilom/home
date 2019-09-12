@@ -6,6 +6,21 @@ import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 import "./Card3.css";
 
 class Card3 extends Component {
+  state={}
+
+  bottomTitleEditorial = () => {
+    this.setState ({
+      bottomTitle: "EDITORIAL_"
+    })
+  }
+
+  dismissTitle = () => {
+    this.setState ({
+  bottomTitle: ""
+    })
+    
+  }
+
   render() {
     return (
       <div
@@ -18,19 +33,30 @@ class Card3 extends Component {
       >
         <Draggable onStart={() => false}>
           <div className="container">
-            <img src={Editorial} alt="" className="card3" />
+            <img src={Editorial} alt="Editorial" className="card3" />
             <div className="content">
-              <p>EDITORIAL_</p>
+              <p>{this.state.bottomTitle}</p>
             </div>
           </div>
         </Draggable>
-        <a href="https://www.shecodes.io">
-          <FontAwesomeIcon
-            icon={faPlusCircle}
-            size="1x"
-            className="plusIcon3"
-          />
-        </a>
+         <h5>
+          <div className="selector3">
+            <span>
+              WOMEN
+              <a href="https://www.shecodes.io">
+                <FontAwesomeIcon
+                  icon={faPlusCircle}
+                  size="2x"
+                  className="plusIcon1"
+                  onMouseOver={this.bottomTitleEditorial}
+                  onMouseLeave={this.dismissTitle}
+                />
+              </a>
+              MULHER
+            </span>
+          </div>
+        </h5>
+        
       </div>
     );
   }

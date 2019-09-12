@@ -14,7 +14,9 @@ class Card2 extends Component {
   contentHover = () => {
     this.setState ({
       topSub: "SPEC",
-      bottomSub: "PACKS"
+      bottomSub: "PACKS",
+      leftSub: "HOMEM",
+      rightSub: "MAN"
     }) 
   }
 
@@ -74,7 +76,7 @@ class Card2 extends Component {
           </div>
           <div className="selector2 contentHover">
             <span>
-              HOMEM
+              {this.state.leftSub}
               <a href="https://www.shecodes.io">
                 <FontAwesomeIcon
                   icon={faPlusCircle}
@@ -85,7 +87,7 @@ class Card2 extends Component {
                   onMouseLeave={this.removeHover}
                 />
               </a>
-              MAN
+              {this.state.rightSub}
             </span>
           </div>
           <div>
