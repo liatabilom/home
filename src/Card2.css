@@ -1,73 +1,77 @@
+#card2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
 .carouselAuto {
-  position: relative;
-  left: 50px;
-  animation-name: move;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: linear;
+	position: relative;
+	left: 50px;
+	animation-name: move;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
 }
 
 .carouselAuto:hover {
-  animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 @keyframes move {
-  0% {
-    margin-top: -1550px;
-  }
-  100% {
-    margin-top: 110px;
-  }
+	0% {
+		margin-top: -1550px;
+	}
+	100% {
+		margin-top: 110px;
+	}
 }
 
 .plusIcon2 {
-  position: relative;
-  left: 0px;
-  top: 3px;
-  width: 10px;
-  height: 15px;
-  margin: 1px;
+	position: relative;
+	left: 0px;
+	top: 3px;
+	width: 10px;
+	height: 15px;
+	margin: 1px;
 }
 
 .selector2 {
-position: absolute;
-left: 0px;
-top: 190px;
-font-family: "Nunito Sans", sans-serif;
-font-size: 10px;
-padding: 0px;
+	position: absolute;
+	left: 0px;
+	top: 190px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 10px;
+	padding: 0px;
 }
 
 p {
-  margin: 0px;
-
+	margin: 0px;
 }
 
 .contentHover:hover {
-  cursor: pointer;
-  color: black;
+	cursor: pointer;
+	color: black;
 }
 
 #contentLeft {
-font-family: 'Crimson Text', serif;
-position: absolute;
-top: 0px;
-left: -6px;
-font-size: 70px;
-padding: 0px;
-margin: 0px;
-writing-mode: vertical-rl;
+	font-family: 'Crimson Text', serif;
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	font-size: 70px;
+	padding: 0px;
+	margin: 0px;
+	writing-mode: vertical-rl;
 }
 
 #contentRight {
-font-family: 'Crimson Text', serif;
-position: absolute;
-bottom: 0px;
-right: -8px;
-font-size: 70px;
-padding: 0px;
-margin: 0px;
-writing-mode: vertical-rl;
+	font-family: 'Crimson Text', serif;
+	position: absolute;
+	bottom: 0px;
+	right: -8px;
+	font-size: 70px;
+	padding: 0px;
+	margin: 0px;
+	writing-mode: vertical-rl;
 }
-

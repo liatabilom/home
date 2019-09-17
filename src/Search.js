@@ -12,7 +12,6 @@ class Search extends Component {
 					<div className="clearfix">
 						<div className="float-left">
 							<input className="emailInput" type="text" placeholder="Email" />
-							<FontAwesomeIcon icon={faChevronRight} size="1x" />
 						</div>
 						<div className="infoIcon float-left ml-3">
 							<a href="https://lucid-shaw-024403.netlify.com/" style={{ color: 'black' }}>

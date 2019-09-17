@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
 
+#card3 {
+	display: flex;
+	flex-direction: inherit;
+}
+
 .plusIcon3 {
 	position: relative;
 	left: 160px;

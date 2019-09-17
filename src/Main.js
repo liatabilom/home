@@ -6,7 +6,7 @@ import AllCards from './AllCards';
 class Main extends Component {
 	render() {
 		return (
-			<div className="">
+			<div>
 				<h1>
 					<header className="header .d-sm-flex">
 						Na'dia

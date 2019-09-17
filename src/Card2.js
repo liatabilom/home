@@ -62,7 +62,7 @@ class Card2 extends Component {
 
 	render() {
 		return (
-			<div>
+			<div id="card2">
 				{this.draggable()}
 				<h5>
 					<div>

@@ -23,6 +23,7 @@ class Card3 extends Component {
 	render() {
 		return (
 			<div
+				id="card3"
 				style={{
 					height: '450px',
 					width: '300px',
@@ -31,7 +32,7 @@ class Card3 extends Component {
 				}}
 			>
 				<Draggable onStart={() => false}>
-					<div className="container">
+					<div className="">
 						<img src={Editorial} alt="Editorial" className="card3" />
 						<div className="content">
 							<p>{this.state.bottomTitle}</p>
