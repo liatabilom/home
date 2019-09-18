@@ -5,6 +5,7 @@
 	object-fit: contain;
 	display: flex;
 	flex-direction: column;
+	order: 2;
 }
 
 .btn-outline-dark {
