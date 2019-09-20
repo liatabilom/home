@@ -4,7 +4,11 @@ import './App.css';
 
 function App() {
 	return (
-		<div id="app mt-3">
+		<div
+			style={{
+				backgroundColor: '#f5f4ef',
+			}}
+		>
 			<Main />
 		</div>
 	);

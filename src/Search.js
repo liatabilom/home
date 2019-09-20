@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import './Search.css';
 
 class Search extends Component {
 	render() {
 		return (
 			<div className="searchBar">
-				<form>
-					<div className="clearfix">
-						<div className="float-left">
-							<input className="emailInput" type="text" placeholder="Email" />
-						</div>
-						<div className="infoIcon float-left ml-3">
-							<a href="https://lucid-shaw-024403.netlify.com/" style={{ color: 'black' }}>
+				<h1>
+					<form>
+						<div className="clearfix">
+							<input className="emailInput float-left" type="text" placeholder="Email" />
+							<span className="infoIcon float-left ml-3">
 								<FontAwesomeIcon icon={faInfoCircle} size="1x" />
-							</a>
-						</div>
-						<div className="avocadoIcon float-left ml-3">
-							<span role="img" aria-label="Avocado">
-								<a href="https://nadiacoralves.tumblr.com/" style={{ textDecoration: 'none' }}>
-									🥑
-								</a>
+							</span>
+							<span className="avocadoIcon float-left ml-3" role="img" aria-label="Avocado">
+								🥑
 							</span>
 						</div>
-					</div>
-				</form>
+					</form>
+				</h1>
 			</div>
 		);
 	}

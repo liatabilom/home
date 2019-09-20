@@ -1,28 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
-
 .mainCards {
-	position: relative;
-	left: 120px;
-	top: 8px;
-	max-width: 1020px;
-	max-height: 590px;
-	padding: 0px;
-	margin: 0px;
-}
-
-.card2 {
-	position: relative;
-	right: 0px;
-	bottom: 0px;
-	height: 487px;
-	width: 336px;
-}
-
-.card3 {
-	position: relative;
-	right: 110px;
-	bottom: 8px;
-	height: 487px;
-	width: 336px;
-	margin: 0px;
+	padding: 10px;
+	margin: 0 0 0 0px;
 }

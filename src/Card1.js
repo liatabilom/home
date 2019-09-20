@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Loader from 'react-loader-spinner';
-import Woolworths from './images/Woolworths.png';
-import Zara from './images/Zara.png';
-import BananaRepublic from './images/BananaRepublic.png';
-import BrooksBrothers from './images/BrooksBrothers.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import './Card1.css';
@@ -35,7 +31,11 @@ class Card1 extends Component {
 								<br />
 								HS
 							</p>
-							<img src={Woolworths} alt="Woolworths" style={{ height: 225, width: 500 }} />
+							<img
+								src="https://i.imgur.com/VVo78M0.png"
+								alt="Woolworths"
+								style={{ height: 225, width: 500 }}
+							/>
 						</div>
 						<div>
 							<p className="legend">
@@ -45,7 +45,11 @@ class Card1 extends Component {
 								<br />
 								AN
 							</p>
-							<img src={Zara} alt="Zara Woman" style={{ height: 225, width: 500 }} />
+							<img
+								src="https://i.imgur.com/BXpgYRF.png"
+								alt="Zara Woman"
+								style={{ height: 225, width: 500 }}
+							/>
 						</div>
 						<div>
 							<p className="legend">
@@ -57,7 +61,11 @@ class Card1 extends Component {
 								<br />
 								LIC
 							</p>
-							<img src={BananaRepublic} alt="Banana Republic" style={{ height: 225, width: 500 }} />
+							<img
+								src="https://i.imgur.com/BfDlSHt.png"
+								alt="Banana Republic"
+								style={{ height: 225, width: 500 }}
+							/>
 						</div>
 						<div>
 							<p className="legend">
@@ -69,7 +77,11 @@ class Card1 extends Component {
 								<br />
 								RS
 							</p>
-							<img src={BrooksBrothers} alt="Brooks Brothers" style={{ height: 225, width: 500 }} />
+							<img
+								src="https://i.imgur.com/NOrvITL.png"
+								alt="Brooks Brothers"
+								style={{ height: 225, width: 500 }}
+							/>
 						</div>
 					</Carousel>
 				</div>
@@ -86,21 +98,22 @@ class Card1 extends Component {
 	//UPDATE FONT SIZE
 	render() {
 		return (
-			<div id="card1">
+			<div id="card1" style={{ height: 480 }}>
 				<h1>
 					<div className="carousel">{this.carousel()}</div>
+
+					<h5>
+						<div className="selector">
+							<span>
+								WOMEN
+								<a href="https://www.shecodes.io">
+									<FontAwesomeIcon icon={faPlusCircle} size="2x" className="plusIcon1" />
+								</a>
+								MULHER
+							</span>
+						</div>
+					</h5>
 				</h1>
-				<h5>
-					<div className="selector">
-						<span>
-							WOMEN
-							<a href="https://www.shecodes.io">
-								<FontAwesomeIcon icon={faPlusCircle} size="2x" className="plusIcon1" />
-							</a>
-							MULHER
-						</span>
-					</div>
-				</h5>
 			</div>
 		);
 	}
