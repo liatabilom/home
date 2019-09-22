@@ -12,10 +12,14 @@ class Search extends Component {
 						<div className="clearfix">
 							<input className="emailInput float-left" type="text" placeholder="Email" />
 							<span className="infoIcon float-left ml-3">
-								<FontAwesomeIcon icon={faInfoCircle} size="1x" />
+								<a href="https://lucid-shaw-024403.netlify.com/" style={{ color: 'black' }}>
+									<FontAwesomeIcon icon={faInfoCircle} size="1x" />
+								</a>
 							</span>
 							<span className="avocadoIcon float-left ml-3" role="img" aria-label="Avocado">
-								🥑
+								<a href="https://nadiacoralves.tumblr.com/" style={{ textDecoration: 'none' }}>
+									🥑
+								</a>
 							</span>
 						</div>
 					</form>
