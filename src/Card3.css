@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
 
 #card3 {
-	display: flex;
-	flex-direction: inherit;
+	width: 100%;
+	position: relative;
+	right: 20px;
 }
 
 .plusIcon3 {
@@ -18,35 +19,21 @@
 	writing-mode: vertical-rl;
 	text-orientation: upright;
 	position: absolute;
-	left: 200px;
+	left: 270px;
 	bottom: 100px;
 }
 
-.container {
-	position: relative;
-	bottom: 20px;
-	max-width: 100px; /* Maximum width */
-	margin: 0px; /* Center it */
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-}
-
 .content {
-	position: fixed; /* Position the background text */
-	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	position: fixed;
+	bottom: 0;
 	left: -30px;
-	background: transparent(0, 0, 0); /* Fallback color */
+	background: transparent(0, 0, 0);
 	background: transparent(0, 0, 0, 0.5);
 	font-family: 'Nunito Sans', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 47px;
 	line-height: 66px;
-	color: #000000; /* Grey text */
-	width: 100%; /* Full width */
-	padding: 20px; /* Some padding */
+	color: #000000;
+	padding: 20px;
 }

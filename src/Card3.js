@@ -23,17 +23,16 @@ class Card3 extends Component {
 	render() {
 		return (
 			<div
-				id="card3"
 				style={{
 					height: '450px',
-					width: '300px',
+					width: '330px',
 					position: 'relative',
 					overflow: 'hidden',
 				}}
 			>
 				<Draggable onStart={() => false}>
-					<div className="">
-						<img src={Editorial} alt="Editorial" className="card3" />
+					<div>
+						<img src="https://i.imgur.com/csn0840.png" alt="Editorial" id="card3" />
 						<div className="content">
 							<p>{this.state.bottomTitle}</p>
 						</div>

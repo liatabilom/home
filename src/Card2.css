@@ -1,12 +1,6 @@
-#card2 {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-}
-
 .carouselAuto {
 	position: relative;
-	left: 50px;
+	left: 80px;
 	animation-name: move;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;

@@ -7,7 +7,7 @@ import './AllCards.css';
 class AllCards extends Component {
 	render() {
 		return (
-			<div className="container mt-2 mainCards">
+			<div className="container mt-1 mainCards">
 				<div className="row">
 					<div className="card-body p-0 col-md-4 border border-dark changeBackground">
 						<Card1 />

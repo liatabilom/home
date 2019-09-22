@@ -32,14 +32,12 @@ class Card2 extends Component {
 					style={{
 						height: '500px',
 						width: '275px',
-						position: 'relative',
 						overflow: 'auto',
-						padding: '0',
 					}}
 				>
-					<div className="float-left" style={{ height: '1000px', width: '50px', padding: '0' }}>
+					<div style={{ height: '500px', width: '275px', padding: '20' }}>
 						<Draggable
-							axis="y"
+							axis="x"
 							bounds={(0, 10, 0, 10)}
 							handle=".handle"
 							grid={(25, 25)}
@@ -51,7 +49,7 @@ class Card2 extends Component {
 								src={CarouselAuto}
 								alt="Carousel"
 								className="carouselAuto"
-								style={{ height: 2000, width: 200 }}
+								style={{ height: 2000, width: 230, padding: 10 }}
 							/>
 						</Draggable>
 					</div>
@@ -63,31 +61,33 @@ class Card2 extends Component {
 	render() {
 		return (
 			<div id="card2">
-				{this.draggable()}
-				<h5>
-					<div>
-						<p id="contentLeft">{this.state.topSub}</p>
-					</div>
-					<div className="selector2 contentHover">
-						<span>
-							HOMEM
-							<a href="https://www.shecodes.io">
-								<FontAwesomeIcon
-									icon={faPlusCircle}
-									size="2x"
-									className="plusIcon2"
-									onMouseOver={this.contentHover}
-									onMouseEnter={this.contentHover}
-									onMouseLeave={this.removeHover}
-								/>
-							</a>
-							MAN
-						</span>
-					</div>
-					<div>
-						<p id="contentRight">{this.state.bottomSub}</p>
-					</div>
-				</h5>
+				<h1>
+					{this.draggable()}
+					<h5>
+						<div>
+							<p id="contentLeft">{this.state.topSub}</p>
+						</div>
+						<div className="selector2 contentHover">
+							<span>
+								HOMEM
+								<a href="https://www.shecodes.io">
+									<FontAwesomeIcon
+										icon={faPlusCircle}
+										size="2x"
+										className="plusIcon2"
+										onMouseOver={this.contentHover}
+										onMouseEnter={this.contentHover}
+										onMouseLeave={this.removeHover}
+									/>
+								</a>
+								MAN
+							</span>
+						</div>
+						<div>
+							<p id="contentRight">{this.state.bottomSub}</p>
+						</div>
+					</h5>
+				</h1>
 			</div>
 		);
 	}

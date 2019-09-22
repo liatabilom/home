@@ -31,11 +31,7 @@ class Card1 extends Component {
 								<br />
 								HS
 							</p>
-							<img
-								src="https://i.imgur.com/VVo78M0.png"
-								alt="Woolworths"
-								style={{ height: 225, width: 500 }}
-							/>
+							<img src="https://i.imgur.com/VVo78M0.png" alt="Woolworths" style={{ height: 225 }} />
 						</div>
 						<div>
 							<p className="legend">
@@ -45,11 +41,7 @@ class Card1 extends Component {
 								<br />
 								AN
 							</p>
-							<img
-								src="https://i.imgur.com/BXpgYRF.png"
-								alt="Zara Woman"
-								style={{ height: 225, width: 500 }}
-							/>
+							<img src="https://i.imgur.com/BXpgYRF.png" alt="Zara Woman" style={{ height: 225 }} />
 						</div>
 						<div>
 							<p className="legend">
@@ -61,11 +53,7 @@ class Card1 extends Component {
 								<br />
 								LIC
 							</p>
-							<img
-								src="https://i.imgur.com/BfDlSHt.png"
-								alt="Banana Republic"
-								style={{ height: 225, width: 500 }}
-							/>
+							<img src="https://i.imgur.com/BfDlSHt.png" alt="Banana Republic" style={{ height: 225 }} />
 						</div>
 						<div>
 							<p className="legend">
@@ -77,11 +65,7 @@ class Card1 extends Component {
 								<br />
 								RS
 							</p>
-							<img
-								src="https://i.imgur.com/NOrvITL.png"
-								alt="Brooks Brothers"
-								style={{ height: 225, width: 500 }}
-							/>
+							<img src="https://i.imgur.com/NOrvITL.png" alt="Brooks Brothers" style={{ height: 225 }} />
 						</div>
 					</Carousel>
 				</div>
@@ -98,16 +82,15 @@ class Card1 extends Component {
 	//UPDATE FONT SIZE
 	render() {
 		return (
-			<div id="card1" style={{ height: 480 }}>
+			<div>
 				<h1>
 					<div className="carousel">{this.carousel()}</div>
-
 					<h5>
 						<div className="selector">
 							<span>
 								WOMEN
 								<a href="https://www.shecodes.io">
-									<FontAwesomeIcon icon={faPlusCircle} size="2x" className="plusIcon1" />
+									<FontAwesomeIcon icon={faPlusCircle} size="3x" className="plusIcon1" />
 								</a>
 								MULHER
 							</span>
