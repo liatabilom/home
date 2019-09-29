@@ -11,6 +11,13 @@
 	margin: 5 5 0 10px;
 }
 
+.submitEmail {
+	position: absolute;
+	left: 280px;
+	top: 85px;
+	font-size: 50%;
+}
+
 .button {
 	border-radius: 70px;
 }

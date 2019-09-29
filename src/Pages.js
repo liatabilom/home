@@ -8,17 +8,17 @@ class Pages extends Component {
 				<nav aria-label="footer">
 					<ul>
 						<li className="btn btn-outline-dark rounded-0">
-							<a className="page-button" href="#">
+							<a className="page-button" href="https://www.correiagoncalves.com">
 								Page 1
 							</a>
 						</li>
 						<li className="btn btn-outline-dark rounded-0 ">
-							<a className="page-button" href="/SecondMain">
+							<a className="page-button" href="https://page2.netlify.com/">
 								Page 2
 							</a>
 						</li>
 						<li className="btn btn-outline-dark d-table-cell rounded-0 ">
-							<a className="page-button" href="#">
+							<a className="page-button" href="/home3">
 								Page 3
 							</a>
 						</li>

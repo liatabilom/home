@@ -30,7 +30,7 @@ class Card2 extends Component {
 				<div
 					className="parent"
 					style={{
-						height: '450px',
+						height: '500px',
 						width: '275px',
 						overflow: 'auto',
 					}}
