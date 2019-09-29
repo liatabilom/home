@@ -8,14 +8,13 @@ class Main extends Component {
 	render() {
 		return (
 			<div>
-				<div className="header" style={{ padding: 20 }}>
+				<div className="header">
 					<header>
 						Na'dia
 						<br />
 						Correia Gonc,alves
 					</header>
 				</div>
-				<br />
 				<Search />
 				<div className="row">
 					<div className="side">

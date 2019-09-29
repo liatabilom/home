@@ -9,21 +9,22 @@
 	align-items: flex-end;
 	letter-spacing: -0.016em;
 	color: #000000;
-	margin: 0px;
+	margin: 10px;
 }
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0px;
 }
 
 .side {
 	flex: 50%;
 	padding: 0px;
-	margin: 0px;
+	margin: 20px;
 }
 
 .footer {
-	padding: 20px;
+	padding: 0px;
 	text-align: center;
 }
