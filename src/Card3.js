@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Editorial from './images/Editorial.png';
 import Draggable from 'react-draggable';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';

@@ -2,6 +2,8 @@
 
 #bottom-pages {
 	display: flex;
+	position: absolute;
+	left: 120px;
 }
 
 .btn-outline-dark {

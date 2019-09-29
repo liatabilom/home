@@ -30,12 +30,12 @@ class Card2 extends Component {
 				<div
 					className="parent"
 					style={{
-						height: '500px',
+						height: '480px',
 						width: '275px',
 						overflow: 'auto',
 					}}
 				>
-					<div style={{ height: '500px', width: '275px', padding: '20' }}>
+					<div style={{ height: '450px', width: '275px', margin: 0, padding: '0' }}>
 						<Draggable
 							axis="x"
 							bounds={(0, 10, 0, 10)}
