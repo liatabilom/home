@@ -23,7 +23,7 @@ class Search extends Component {
 								</a>
 							</form>
 							<span className="infoIcon float-left ml-3">
-								<a href="https://lucid-shaw-024403.netlify.com/" style={{ color: 'black' }}>
+								<a href="https://info.correiagoncalves.com/" style={{ color: 'black' }}>
 									<FontAwesomeIcon icon={faInfoCircle} size="1x" />
 								</a>
 							</span>
