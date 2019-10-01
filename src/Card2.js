@@ -70,7 +70,7 @@ class Card2 extends Component {
 						<div className="selector2 contentHover">
 							<span>
 								HOMEM
-								<a href="https://www.shecodes.io">
+								<a href="https://specpacks.correiagoncalves.com/">
 									<FontAwesomeIcon
 										icon={faPlusCircle}
 										size="2x"
