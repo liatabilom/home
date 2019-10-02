@@ -5,13 +5,19 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import './Search.css';
 
 class Search extends Component {
+	state = '';
+	preventReload = event => {
+		event.preventDefault();
+		this.setState({});
+	};
+
 	render() {
 		return (
 			<div className="searchBar">
 				<h1>
 					<form>
 						<div className="clearfix">
-							<form>
+							<form onSubmit={this.preventReload}>
 								<input className="emailInput float-left" type="text" placeholder="Email" />
 								<a
 									href="mailto:nadiacoralves@gmail.com?Subject=Hi%20Nadia"
