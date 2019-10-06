@@ -4,7 +4,7 @@ import './Pages.css';
 class Pages extends Component {
 	render() {
 		return (
-			<div id="bottom-pages">
+			<div className="bottom-pages">
 				<nav aria-label="footer">
 					<ul style={{ padding: 0 }}>
 						<li className="btn btn-outline-dark rounded-0 active">

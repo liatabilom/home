@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CarouselAuto from './images/CarouselAuto.png';
 import Draggable from 'react-draggable';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle, faAlignCenter } from '@fortawesome/free-solid-svg-icons';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import './Card2.css';
 
 class Card2 extends Component {

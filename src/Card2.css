@@ -39,10 +39,6 @@
 	padding: 0px;
 }
 
-p {
-	margin: 0px;
-}
-
 .contentHover:hover {
 	cursor: pointer;
 	color: black;

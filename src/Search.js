@@ -15,31 +15,29 @@ class Search extends Component {
 		return (
 			<div className="searchBar">
 				<h1>
-					<form>
-						<div className="clearfix">
-							<form onSubmit={this.preventReload}>
-								<input className="emailInput float-left" type="text" placeholder="Email" />
-								<a
-									href="mailto:nadiacoralves@gmail.com?Subject=Hi%20Nadia"
-									target="_top"
-									className="submitEmail"
-									style={{ color: 'black' }}
-								>
-									<FontAwesomeIcon icon={faChevronRight} size="1x" />
-								</a>
-							</form>
-							<span className="infoIcon float-left ml-3">
-								<a href="https://info.correiagoncalves.com/" style={{ color: 'black' }}>
-									<FontAwesomeIcon icon={faInfoCircle} size="1x" />
-								</a>
-							</span>
-							<span className="avocadoIcon float-left ml-3" role="img" aria-label="Avocado">
-								<a href="https://nadiacoralves.tumblr.com/" style={{ textDecoration: 'none' }}>
-									🥑
-								</a>
-							</span>
-						</div>
-					</form>
+					<div className="clearfix">
+						<form onSubmit={this.preventReload}>
+							<input className="emailInput float-left" type="text" placeholder="Email" />
+							<a
+								href="mailto:nadiacoralves@gmail.com?Subject=Hi%20Nadia"
+								target="_top"
+								className="submitEmail"
+								style={{ color: 'black' }}
+							>
+								<FontAwesomeIcon icon={faChevronRight} size="1x" />
+							</a>
+						</form>
+						<span className="infoIcon float-left ml-3">
+							<a href="https://info.correiagoncalves.com/" style={{ color: 'black' }}>
+								<FontAwesomeIcon icon={faInfoCircle} size="1x" />
+							</a>
+						</span>
+						<span className="avocadoIcon float-left ml-3" role="img" aria-label="Avocado">
+							<a href="https://nadiacoralves.tumblr.com/" style={{ textDecoration: 'none' }}>
+								🥑
+							</a>
+						</span>
+					</div>
 				</h1>
 			</div>
 		);
