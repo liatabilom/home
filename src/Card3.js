@@ -41,7 +41,7 @@ class Card3 extends Component {
 					<div className="selector3">
 						<span>
 							WOMEN
-							<a href="editorial.correiagoncalves.com">
+							<a href="https://editorial.correiagoncalves.com">
 								<FontAwesomeIcon
 									icon={faPlusCircle}
 									size="2x"
