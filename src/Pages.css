@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
 
 .bottom-pages {
-	display: flex;
 	position: relative;
 	top: 10px;
 	left: 155px;
 	width: 250px;
+	height: auto;
 }
 
 .btn-outline-dark {

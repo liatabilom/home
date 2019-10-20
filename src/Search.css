@@ -30,8 +30,8 @@
 	font-size: 70%;
 }
 
-/* @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.emailInput {
-		font-size: 50%;
+		font-size: 40%;
 	}
-} */
+}

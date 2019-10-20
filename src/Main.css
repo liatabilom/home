@@ -15,17 +15,28 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px;
 }
 
 .side {
 	flex: 50%;
 	padding: 0px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 .footer {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.header,
+	.search {
+		margin: 5%;
+	}
+	.side {
+		width: 80%;
+		padding: 5%;
+		margin-left: 5px;
+	}
 }
