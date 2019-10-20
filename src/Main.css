@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
 .header {
 	text-align: left;
@@ -30,12 +30,8 @@
 }
 
 @media screen and (max-width: 480px) {
-	.header,
-	.search {
-		margin: 5%;
-	}
 	.side {
-		width: 80%;
+		width: 90%;
 		padding: 5%;
 		margin-left: 5px;
 	}
