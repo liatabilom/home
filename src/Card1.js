@@ -89,7 +89,7 @@ class Card1 extends Component {
 						<div className="selector">
 							<span>
 								WOMEN
-								<a href="https://www.shecodes.io">
+								<a href="https://fashionproject.netlify.com">
 									<FontAwesomeIcon icon={faPlusCircle} size="3x" className="plusIcon1" />
 								</a>
 								MULHER
