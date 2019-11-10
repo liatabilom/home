@@ -30,12 +30,12 @@ class Card2 extends Component {
 				<div
 					className="draggableContainer"
 					style={{
-						height: '480px',
+						height: '500px',
 						width: '275px',
 						overflow: 'scroll',
 					}}
 				>
-					<div style={{ height: '450px', width: '275px', margin: '0' }}>
+					<div style={{ height: '480px', width: '275px', margin: '0' }}>
 						<Draggable
 							axis="y"
 							bounds={(0, 10, 0, 10)}
@@ -60,33 +60,29 @@ class Card2 extends Component {
 	render() {
 		return (
 			<div id="card2">
-				<h1>
-					{this.draggable()}
-					<h5>
-						<div>
-							<p id="contentLeft">{this.state.topSub}</p>
-						</div>
-						<div className="selector2 contentHover">
-							<span>
-								HOMEM
-								<a href="https://specpacks.correiagoncalves.com/">
-									<FontAwesomeIcon
-										icon={faPlusCircle}
-										size="2x"
-										className="plusIcon2"
-										onMouseOver={this.contentHover}
-										onMouseEnter={this.contentHover}
-										onMouseLeave={this.removeHover}
-									/>
-								</a>
-								MAN
-							</span>
-						</div>
-						<div>
-							<p id="contentRight">{this.state.bottomSub}</p>
-						</div>
-					</h5>
-				</h1>
+				{this.draggable()}
+				<div>
+					<p id="contentLeft">{this.state.topSub}</p>
+				</div>
+				<div className="selector2 contentHover">
+					<span>
+						HOMEM
+						<a href="https://specpacks.correiagoncalves.com/">
+							<FontAwesomeIcon
+								icon={faPlusCircle}
+								size="2x"
+								className="plusIcon2"
+								onMouseOver={this.contentHover}
+								onMouseEnter={this.contentHover}
+								onMouseLeave={this.removeHover}
+							/>
+						</a>
+						MAN
+					</span>
+				</div>
+				<div>
+					<p id="contentRight">{this.state.bottomSub}</p>
+				</div>
 			</div>
 		);
 	}

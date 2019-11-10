@@ -20,7 +20,7 @@
 .side {
 	flex: 50%;
 	padding: 0px;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 .footer {
@@ -32,7 +32,6 @@
 @media screen and (max-width: 480px) {
 	.side {
 		width: 90%;
-		padding: 5%;
-		margin-left: 5px;
+		padding: 0%;
 	}
 }

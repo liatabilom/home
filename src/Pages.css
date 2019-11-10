@@ -8,7 +8,7 @@
 	display: flex;
 	position: relative;
 	top: 10px;
-	left: 145px;
+	left: 155px;
 	width: 450px;
 }
 
@@ -29,6 +29,6 @@
 @media screen and (max-width: 480px) {
 	.bottom-pages {
 		width: 360px;
-		left: 0%;
+		left: 5%;
 	}
 }
