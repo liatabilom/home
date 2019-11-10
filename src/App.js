@@ -4,11 +4,7 @@ import './App.css';
 
 function App() {
 	return (
-		<div
-			style={{
-				backgroundColor: '#f5f4ef',
-			}}
-		>
+		<div style={{ backgroundColor: '#f5f4ef' }}>
 			<Main />
 		</div>
 	);

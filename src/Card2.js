@@ -55,7 +55,7 @@ class Card2 extends Component {
 				</div>
 			);
 		}
-	};c
+	};
 
 	render() {
 		return (
