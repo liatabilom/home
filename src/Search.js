@@ -39,7 +39,9 @@ class Search extends Component {
 								rel="noopener noreferrer"
 								style={{ textDecoration: 'none' }}
 							>
-								🥑
+								<span role="img" aria-label="avocado">
+									🥑
+								</span>
 							</a>
 						</span>
 					</div>

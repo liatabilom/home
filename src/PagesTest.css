@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
 
-.bottom-pages {
-	display: flex;
-	position: relative;
-	top: 10px;
-	left: 150px;
-	width: fit-content;
-}
-
-.page-button {
+.testButton {
 	height: 30px;
 	width: 120px;
 	background-color: #f5f4ef;
@@ -25,17 +17,9 @@
 }
 
 .active,
-.page-button:hover {
-	text-decoration: none;
+.testButton:hover {
 	background-color: black;
 	color: white;
 	border: 1px solid;
-}
-
-@media screen and (max-width: 480px) {
-	.bottom-pages {
-		width: 340px;
-		left: 5%;
-		margin-bottom: 10%;
-	}
+	text-decoration: none;
 }
