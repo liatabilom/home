@@ -31,16 +31,17 @@ class Card2 extends Component {
 					className="draggableContainer"
 					style={{
 						height: '500px',
-						width: '275px',
+
+						marginLeft: 60,
 						overflow: 'scroll',
 					}}
 				>
-					<div style={{ height: '480px', width: '275px', margin: '0' }}>
+					<div style={{ height: '480px', width: '275px', margin: 0 }}>
 						<Draggable
 							axis="y"
-							bounds={(0, 10, 0, 10)}
+							bounds={(0, 0, 0, 0)}
 							handle=".handle"
-							grid={(25, 25)}
+							grid={(25, 15)}
 							allowAnyClick={true}
 							disabled={true}
 						>
