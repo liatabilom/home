@@ -1,40 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap'rel='stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"rel="stylesheet");
 
 .bottom-pages {
-	display: flex;
-	position: relative;
-	top: 10px;
-	left: 150px;
-	width: fit-content;
+  display: flex;
+  position: relative;
+  top: 10px;
+  left: 150px;
+  width: fit-content;
 }
 
 .page-button {
-	height: 30px;
-	width: 120px;
-	background-color: #f5f4ef;
-	border: 1px solid;
-	color: black;
-	text-decoration: none;
-	padding: 5px;
-	font-size: 16px;
-	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 400;
-	cursor: 'pointer';
-	text-align: 'center';
+  height: 30px;
+  width: 120px;
+  background-color: #f5f4ef;
+  border: 1px solid;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  cursor: "pointer";
+  text-align: "center";
+  border-radius: 20px;
+  margin: 0 4px;
 }
 
 .active,
 .page-button:hover {
-	text-decoration: none;
-	background-color: black;
-	color: white;
-	border: 1px solid;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 1px solid;
 }
 
 @media screen and (max-width: 480px) {
-	.bottom-pages {
-		width: 340px;
-		left: 5%;
-		margin-bottom: 10%;
-	}
+  .bottom-pages {
+    width: 340px;
+    left: 5%;
+    margin-bottom: 10%;
+  }
 }
