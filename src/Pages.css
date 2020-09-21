@@ -37,4 +37,8 @@
     align-items: center;
     margin-bottom: 10%;
   }
+
+  .page-button {
+    margin: 10px 0;
+  }
 }
