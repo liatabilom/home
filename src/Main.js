@@ -24,9 +24,7 @@ class Main extends Component {
           </div>
         </div>
         <div className="footer">
-          <h2>
-            <Pages />
-          </h2>
+          <Pages />
         </div>
       </div>
     );
